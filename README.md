@@ -3,9 +3,7 @@ Selic Calculator Program
 I started by interpreting the database, noting that the Selic rate was not updated on weekends and holidays (which makes sense).
 
 From that I created functions:
--getDate (which splits the json into columns and rearranges the dates)
--getRate (which retrieves the Selic rate value of the day)
--existData ( which checks if the corresponding date exists )
+getDate (which splits the json into columns and rearranges the dates), getRate (which retrieves the Selic rate value of the day), existData ( which checks if the corresponding date exists )
 
 With these functions, I built the financial calculator by accumulating the daily values ​​​​in the starting capital, with due knowledge of compound interest.
 
