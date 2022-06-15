@@ -3,7 +3,7 @@ Selic Calculator Program
 I started by interpreting the database, noting that the Selic rate was not updated on weekends and holidays (which makes sense).
 
 From that I created functions:
-- getDate (which splits the json into columns and rearranges the dates)
+-getDate (which splits the json into columns and rearranges the dates)
 -getRate (which retrieves the Selic rate value of the day)
 -existData ( which checks if the corresponding date exists )
 
